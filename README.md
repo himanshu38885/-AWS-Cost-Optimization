@@ -13,6 +13,6 @@ A Lambda function to identify and delete unused EBS snapshots, optimizing storag
 
 ## Setup
 1. Create an EC2 instance and a snapshot.
-2. Deploy the Lambda function.
-3. Assign necessary IAM roles.
+2. Deploying the Lambda function change the default execution time of the Lambda like 10sec .
+3. Assign necessary IAM roles (create a policy for ec2 permissions such as: describe instances,describe volumes,describe snapshots and delete snapshots.
 4. Test and automate with CloudWatch.
