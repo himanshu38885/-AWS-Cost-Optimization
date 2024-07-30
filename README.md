@@ -8,7 +8,7 @@ A Lambda function to identify and delete unused EBS snapshots, optimizing storag
 ## Features
 - Creates EC2 instance and snapshots
 - Identifies unused snapshots
-- Deletes unused snapshots
+- Deletes unused snapshots automatically and save the cost
 - Automates with CloudWatch
 
 ## Setup
